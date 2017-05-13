@@ -1,0 +1,23 @@
+{
+  "name": "deterministic-json-schema-generator",
+  "version": "0.0.1",
+  "description": "Generate json objects from a json schema v4 determinisitcally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "randexp": "^0.4.5",
+    "random-js": "^1.0.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "glob": "^7.1.1",
+    "json-schema-test-suite": "0.0.10",
+    "ramda": "^0.23.0",
+    "tv4": "^1.3.0"
+  }
+}
